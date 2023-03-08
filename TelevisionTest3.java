@@ -1,13 +1,15 @@
-public class TelevisionTest {
+public class TelevisionTest3 {
     public static void main(String[] args) {
-        Television myTv = new Television();
+        Television3 myTv = new Television3();
         myTv.channel = 7;
         myTv.volume = 9;
+        myTv.onOff = true;
         myTv.print();
 
-        Television yourTv = new Television();
+        Television3 yourTv = new Television3();
         yourTv.channel = 9;
         yourTv.volume = 12;
+        yourTv.onOff = true;
         yourTv.print();
     }
 }
