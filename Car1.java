@@ -1,4 +1,4 @@
-public class Car {
+public class Car1 {
     String color; //색
     int speed; //속도
     int gear; //기어

@@ -1,4 +1,4 @@
-public class Box {
+public class Box1 {
     private int width;
     private int length;
     private int height;
@@ -10,7 +10,7 @@ public class Box {
     }
 
     //생성자
-    Box(int w, int l, int h){
+    Box1(int w, int l, int h){
         width = w;
         length = l;
         height = h;
