@@ -2,6 +2,9 @@ class Shape {
     public Shape() {
         System.out.println("Shape() 생성자");
     }
+
+    public void draw() {
+    }
 }
 
 class Rectangle extends Shape {
